@@ -50,10 +50,10 @@ if (z === 8 || y === 8) {
 totalShoppingCart = 100
 if (totalShoppingCart >= 50) {
   console.log("spedizione gratuita")
-}
-else if (totalShoppingCart <= 50) {
+} else {
   console.log("costo spedizione=10")
 }
+
 
 
 /* ESERCIZIO 6
@@ -83,7 +83,12 @@ if (a > b && b > c) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const s = 12
+if (typeof s === "number") {
+  console.log("s è un numero")
+} else if (typeof s !== "number") {
+  console.log("s è una stringa")
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
