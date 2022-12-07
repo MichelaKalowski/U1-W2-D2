@@ -47,12 +47,15 @@ if (z === 8 || y === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-totalShoppingCart = 100
+let totalShoppingCart= 100;
+const costoSpedizione = 10;
 if (totalShoppingCart >= 50) {
-  console.log("spedizione gratuita")
+  console.log("spedizione gratuita ma paghi", totalShoppingCart)
 } else {
-  console.log("costo spedizione=10")
+  console.log("costo spedizione 10 euro, totale euro", totalShoppingCart + costoSpedizione)
 }
+
+
 
 
 
@@ -116,11 +119,11 @@ else {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let val = 13
-if (val >= 5 && val < 10){
+if (val >= 5 && val < 10) {
   console.log("Meno di 10");
-}else if (val < 5){
-  console.log("Meno di 5");-
-}else if ( val >= 10){
+} else if (val < 5) {
+  console.log("Meno di 5"); 
+} else if (val >= 10) {
   console.log("Uguale a 10 o maggiore");
 }
 
