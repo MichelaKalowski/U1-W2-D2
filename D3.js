@@ -47,7 +47,7 @@ if (z === 8 || y === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart= 100;
+let totalShoppingCart = 100;
 const costoSpedizione = 10;
 if (totalShoppingCart >= 50) {
   console.log("spedizione gratuita ma paghi", totalShoppingCart)
@@ -73,7 +73,7 @@ if (totalShoppingCart >= 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let a = 4
+let a = // sbagliato da rifare
 let b = 3
 let c = 2
 if (a > b && b > c) {
@@ -122,7 +122,7 @@ let val = 13
 if (val >= 5 && val < 10) {
   console.log("Meno di 10");
 } else if (val < 5) {
-  console.log("Meno di 5"); 
+  console.log("Meno di 5");
 } else if (val >= 10) {
   console.log("Uguale a 10 o maggiore");
 }
