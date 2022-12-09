@@ -6,7 +6,11 @@
 let numero1 = 20
 let numero2 = 80
 if (numero1 > numero2) {
-  console.log("numero1>numero2")
+  console.log('Il numero più grande è', numero1)
+} else if (numero1 < numero2) {
+  console.log('Il numero più grande è', numero2)
+} else {
+  console.log('I numeri sono uguali')
 }
 
 /* ESERCIZIO 2
@@ -130,31 +134,54 @@ if (val >= 5 && val < 10) {
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
-
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+const me = {
+  name: 'Michela',
+  lastName: 'Kalowski',
+  skills: ['javascript', 'html', 'css'],
+}
+
+me.city = 'Toronto'
+console.log(me)
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+delete me.lastName
+console.log(me)
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop()
+console.log(me)
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let myarray = []
+myArray.push(1)
+myArray.push(2)
+myArray.push(3)
+myArray.push(4)
+myArray.push(5)
+myArray.push(6)
+myArray.push(7)
+myArray.push(8)
+myArray.push(9)
+myArray.push(10)
+console.log(myArray)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+myArray[9] = 100
+console.log(myArray)
