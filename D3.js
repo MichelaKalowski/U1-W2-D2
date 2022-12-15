@@ -98,7 +98,7 @@ if (a > b && b > c) {
 const s = 12
 if (typeof s === "number") {
   console.log("s è un numero")
-} else if (typeof s !== "number") {
+} else(typeof s !== "number") {
   console.log("s è una stringa")
 }
 /* ESERCIZIO 9
