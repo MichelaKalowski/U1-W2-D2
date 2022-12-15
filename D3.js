@@ -43,7 +43,11 @@ let z = 6
 let w = 10
 if (z === 8 || y === 8) {
   console.log("ok")
-}
+
+} else if (z + w === 8) {
+  console.log("ok")
+} else { console.log("valore diverso da 8 ") };
+
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -51,6 +55,7 @@ if (z === 8 || y === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 let totalShoppingCart = 100;
 const costoSpedizione = 10;
 if (totalShoppingCart >= 50) {
@@ -78,7 +83,7 @@ if (totalShoppingCart >= 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let a = // sbagliato da rifare
-let b = 3
+  let b = 3
 let c = 2
 if (a > b && b > c) {
   console.log("a>b>c")
