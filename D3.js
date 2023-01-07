@@ -82,13 +82,31 @@ if (totalShoppingCart >= 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let a = // sbagliato da rifare
-  let b = 3
-let c = 2
-if (a > b && b > c) {
-  console.log("a>b>c")
-}
+let a = 6
+let b = 14
+let c = 10
 
+if (a >= b) {
+  if (c >= a) {
+    console.log(c, a, b)
+  } else {
+    if (c >= b) {
+      console.log(a, c, b)
+    } else {
+      console.log(a, b, c)
+    }
+  }
+} else {
+  if (c >= b) {
+    console.log(c, b, a)
+  } else {
+    if (c >= a) {
+      console.log(b, c, a)
+    } else {
+      console.log(b, a, c)
+    }
+  }
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
@@ -98,7 +116,7 @@ if (a > b && b > c) {
 const s = 12
 if (typeof s === "number") {
   console.log("s è un numero")
-} else(typeof s !== "number") {
+} else (typeof s !== "number") {
   console.log("s è una stringa")
 }
 /* ESERCIZIO 9
