@@ -43,7 +43,6 @@ let z = 6
 let w = 10
 if (z === 8 || y === 8) {
   console.log("ok")
-
 } else if (z + w === 8) {
   console.log("ok")
 } else { console.log("valore diverso da 8 ") };
@@ -116,9 +115,9 @@ if (a >= b) {
 const s = 12
 if (typeof s === "number") {
   console.log("s è un numero")
-} else (typeof s !== "number") {
+} else 
   console.log("s è una stringa")
-}
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
@@ -133,16 +132,15 @@ else {
 }
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+  let number = 7
+  if (number < 10) {
       console.log("Meno di 10");
-    } else if (val < 5) {
+    } else if (number < 5) {
       console.log("Meno di 5");
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let val = 13
